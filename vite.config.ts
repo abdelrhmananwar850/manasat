@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // GitHub Pages - root path for user/org site (manasat.github.io)
-      base: '/',
+      // GitHub Pages base path
+      base: mode === 'production' ? '/manasat/' : '/',
       server: {
         port: 3000,
         host: '0.0.0.0',
