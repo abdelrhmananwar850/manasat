@@ -1,0 +1,7 @@
+{
+  "name": "Manasat Real Estate Voice Assistant",
+  "description": "A sophisticated AI voice assistant for Manasat Real Estate, offering property information, lead capture, and interactive galleries using Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
